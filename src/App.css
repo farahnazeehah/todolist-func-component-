@@ -1,0 +1,79 @@
+body {
+  background-color: white;
+}
+
+.App {
+  text-align: center;
+  background-color: aqua;
+  min-height: 500px;
+  width: 400px;
+  margin: 50px auto;
+  border-radius: 10px;
+}
+
+#input{
+  background-color: bisque;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+#input::placeholder{
+  color: black;
+}
+
+.add-btn{
+  height: 50px;
+  width: 80px;
+  background-color: orangered;
+  border-radius: 5px;
+  border: 0;
+  cursor: pointer;
+  font-weight: bolder;
+  color: white;
+}
+
+ul {
+  text-align: justify;
+  list-style-type: none;
+}
+
+.list{
+  color: white;
+  width: 300px;
+  background-color: darkmagenta;
+  height: 50px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.list p{
+  padding: 10px;
+  position: relative;
+}
+
+.list p span{
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.faicons{
+  margin: 0 5px;
+  font-size: 15px;
+}
+
+.list p input{
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: 18px;
+}
+
+.list p input:focus{
+outline: none;
+}
